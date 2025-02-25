@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout tres columnas</title>
+    <style>
+      body {
+        margin: 15px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .container {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+      }
+      .sidebar {
+        background-color: lightpink;
+        width: 20%;
+        padding: 5px;
+      }
+      .content {
+        background-color: lightgreen;
+        width: 50%;
+        padding: 20px;
+      }
+      .extras {
+        background-color: lightblue;
+        width: 30%;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h1>Menú</h1>
+        <a href="#">Opción 1</a>
+        <a href="#">Opción 2</a>
+        <a href="#">Opción 3</a>
+      </div>
+      <div class="content">
+        <h1>Programación Orientada a Eventos (POE)</h1>
+        <p>
+          Es un paradigma de programación basado en la ejecución de acciones en
+          respuesta a eventos, como clics de mouse, pulsaciones de teclas o
+          cambios en una interfaz gráfica. En este modelo, el flujo del programa
+          no es lineal, sino que depende de la interacción del usuario o de
+          sucesos predefinidos.
+        </p>
+      </div>
+      <div class="extras">
+        <h1>Información extra</h1>
+        <p>
+          Entre sus ventajas destaca la modularidad, el código más organizado y
+          la capacidad de ejecutar tareas de manera asíncrona sin bloquear la
+          interfaz. Sin embargo, una mala gestión de eventos puede generar
+          problemas de rendimiento y dificultar la depuración del código. A
+          pesar de ello, la POE sigue siendo un pilar esencial en el desarrollo
+          de software moderno, especialmente en aplicaciones interactivas y en
+          tiempo real.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

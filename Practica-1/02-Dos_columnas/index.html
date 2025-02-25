@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout dos columnas</title>
+    <style>
+      body {
+        margin: 15px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .container {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+      }
+      .content{
+        background-color: coral;
+        padding: 20px;
+        width: 80%;
+      }
+      .sidebar{
+        background-color: lightblue;
+        padding: 20px;
+        width: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>Electrónica General I</h1>
+        <p>
+          Es una rama de la ingeniería que estudia los fundamentos de los circuitos eléctricos y electrónicos, enfocándose en el análisis y diseño de sistemas básicos. Abarca temas como leyes de Kirchhoff, circuitos resistivos, capacitores, inductores y semiconductores como el diodo y el transistor.
+        </p>
+      </div>
+      <div class="sidebar">
+        <h1>Menú</h1>
+        <a href="#">Opción 1</a>
+        <a href="#">Opción 2</a>
+        <a href="#">Opción 3</a>
+      </div>
+    </div>
+  </body>
+</html>

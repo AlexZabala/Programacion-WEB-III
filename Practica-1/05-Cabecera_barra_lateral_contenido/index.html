@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cabecera, barra lateral y contenido</title>
+    <style>
+      * {
+        box-sizing: border-box; /* Asegura que padding y border no aumenten el tamaño */
+      }
+      body {
+        margin: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .header {
+        background-color: lightpink;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        font-size: xx-large;
+        font-weight: bold;
+        padding: 20px;
+      }
+      .container {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+      }
+      .sidebar {
+        background-color: lightgoldenrodyellow;
+        padding: 20px;
+        width: 25%;
+      }
+      .content {
+        background-color: lightsteelblue;
+        padding: 20px;
+        width: 75%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">Información</div>
+    <div class="container">
+      <div class="sidebar">
+        <h1>Menú</h1>
+        <a href="#">Opción 1</a><br />
+        <a href="#">Opción 2</a><br />
+        <a href="#">Opción 3</a>
+      </div>
+      <div class="content">
+        <h1>Programación Orientada a Objetos (POO)</h1>
+        <p>
+          La Programación Orientada a Objetos (POO) es un paradigma de programación basado en la creación y manipulación de "objetos", los cuales representan entidades del mundo real y contienen tanto datos (atributos) como comportamientos (métodos).
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
